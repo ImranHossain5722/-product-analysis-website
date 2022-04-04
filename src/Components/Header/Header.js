@@ -1,18 +1,17 @@
 import './Header.css'
 import { NavLink } from 'react-router-dom';
-import { Nav } from 'react-bootstrap';
 
 const Header = () => {
     return (
-        <div className=' container bg-primary text-white' >
-            <div className='p-3 mb-2 bg-primary text-white
-            '>
-            <div className='d-flex ext-white'> 
-                <div className='BrandName bg-primary text-white'>
+        <div className='main-container' >
+            <header className='container p-2'>
+            <div className='d-flex justify-content-between align-items-center'> 
+                <div className='BrandName '>
                     <h2>Drone Shop</h2>
 
                 </div>
-                <div className='nav'>
+
+                <div className='nav '>
                 <NavLink to="/"className={({ isActive }) => ( isActive ? "active-link" : "link")} >Home</NavLink>  
                 <NavLink to="reviews"className={({ isActive }) => ( isActive ? "active-link" : "link")}>Reviews</NavLink>
                 <NavLink to='dashboard'className={({ isActive }) => ( isActive ? "active-link" : "link")}>Dashboard</NavLink>
@@ -21,7 +20,7 @@ const Header = () => {
                 </div>
             </div>
            
-            </div>
+            </header>
             
         </div>
     );

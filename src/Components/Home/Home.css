@@ -1,0 +1,23 @@
+.text-container h5{
+font-size: 45px;
+text-align: left;
+margin-left:80px;
+font-weight: 800;
+
+}
+.text-container p{
+    font-size: 16px;
+    text-align: left;
+    margin-left:80px;
+    margin-top: 10px;
+    font-weight: normal;
+    
+    }
+.dronShop{
+    color:tomato;
+    font-size: 40px;
+}
+.dronImage img {
+    border-radius: 20px;
+    box-shadow: 20px 20px 50px 0px rgba(19, 39, 95, 0.315) ;
+}

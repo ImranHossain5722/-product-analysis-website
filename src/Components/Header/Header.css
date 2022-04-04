@@ -1,10 +1,25 @@
-.header-container{
-    background-color: black;
+
+.main-container{
+    margin:0 auto;
+    background-color: rgb(220, 237, 245);
+    box-shadow: 0px -32px 80px 0px;
+}
+.BrandName h2{
+font-weight:800;
+color:rgb(0, 40, 116)
+
+}
+.nav a {
+text-decoration: none;
+margin-left: 20px;
+
+
 }
 .active-link
 {
-color:blue;
+color:tomato;
 }
 .link{
-    color:lightblue
+    color:rgb(0, 40, 116);
+    font-size:16px
 }

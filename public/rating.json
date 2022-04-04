@@ -1,0 +1,85 @@
+[
+
+    {
+   
+       "id":1,
+       "name":"chang",
+       "Review":"Very good service and authentic drones.",
+       "Rating":4.8,
+       "img":"https://res.cloudinary.com/dk0lorahh/image/upload/v1649095529/ratingImages/jd-chow-gutlccGLXKI-unsplash_oyytv1.jpg"
+   
+   
+    },
+   
+    {
+   
+       "id":2,
+       "name":"Bond jams bond",
+       "Review":"Consistent Drone seller Best drone seller of the country",
+       "Rating":4.9,
+       "img": "https://res.cloudinary.com/dk0lorahh/image/upload/v1649095529/ratingImages/abolfazl-shaker-RaENQOaa54k-unsplash_qilrye.jpg"
+       
+       
+       },
+       {
+   
+           "id":3,
+           "name":"Lili Push ",
+           "Review":"nice i like it it's powerful drone i really love it ",
+           "Rating":4.5,
+           "img": "https://res.cloudinary.com/dk0lorahh/image/upload/v1649095529/ratingImages/andriyko-podilnyk-jFAG_ixCrsM-unsplash_ux88dy.jpg"
+           
+           
+           },
+       {
+   
+           "id":4,
+           "name":"Jhon do",
+           "Review":"they are great in electronics marketing in UGANDA.specially for drone.they keep the price low than others.thanks roboticsbd for providing us at low cost with maintain",
+           "Rating":4.7,
+           "img": "https://res.cloudinary.com/dk0lorahh/image/upload/v1649095529/ratingImages/bewakoof-com-official-_iKNFEIVthQ-unsplash_kp9jmt.jpg"
+           
+           
+           },
+       {
+   
+           "id":5,
+           "name":" Cartin malo",
+           "Review":"I TOOK MY DJI MAVIC 2PRO FROM THEM . So much cooperative .THOUGH THEY ARE LAGE TO RECEIVE CALLS BUT YOU CAN VISIT FOR FASTER SERVICE.",
+           "Rating":4.6,
+           "img": "https://res.cloudinary.com/dk0lorahh/image/upload/v1649095529/ratingImages/courtney-cook-TSZo17r3m0s-unsplash_pgjtgz.jpg"
+           
+           
+           },
+       {
+   
+           "id":6,
+           "name":"Mark dron",
+           "Review":"MOST AND BEST BIGEST DRONE AND TECH SHOP OVER  BANGLADESH *I took dji mavic2 pro from them",
+           "Rating":4.9,
+           "img": "https://res.cloudinary.com/dk0lorahh/image/upload/v1649095529/ratingImages/mohammed-idris-djoudi-kymBoY0hLKU-unsplash_ou8ox4.jpg"
+           
+           
+           },
+       {
+   
+           "id":7,
+           "name":"justin kala",
+           "Review":"BEST DRONE SHOP. RECOMONDED I love it Very Nice ",
+           "Rating":5,
+           "img": "https://res.cloudinary.com/dk0lorahh/image/upload/v1649095530/ratingImages/garrett-jackson-UKxemYWiBf4-unsplash_1_rsxlpe.jpg"
+           
+           
+           },
+       {
+   
+           "id":8,
+           "name":" pushpa ",
+           "Review":"Nice Drone Shop Recommended ",
+           "Rating":4.9,
+           "img": "https://res.cloudinary.com/dk0lorahh/image/upload/v1649095550/ratingImages/pexels-yan-krukov-7640442_fwhlzw.jpg"
+           
+           
+           }
+       
+   ]
