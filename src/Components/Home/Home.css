@@ -32,3 +32,8 @@ font-weight: 800;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.show-review-btn{
+margin: 50px ;
+
+}

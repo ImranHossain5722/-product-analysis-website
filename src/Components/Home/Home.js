@@ -8,6 +8,7 @@ const Home = () => {
 //data load
 
 const [reviews,setReviews] = useState ([])
+
   useEffect(()=>{
     fetch('rating.json')
     .then(res=>res.json())
@@ -35,9 +36,11 @@ const [reviews,setReviews] = useState ([])
 
                 <div className='reviewCustomer' >
                     {
-                     reviews.map(review=><Review key= {review.id} review={review} ></Review> )
+                     reviews.slice(0,3).map(review=><Review key= {review.id} review={review} ></Review> )
                     }
                 </div>
+
+                <button className='btn btn-info btn-lg show-review-btn'>Show All Reviews </button>
         </div>
         </div>
         
