@@ -11,7 +11,7 @@ const {img,name,Review,Rating}=props.review
              <h5 className='customer-name'>Name: {name} </h5>
              <p className='customer-rating'><span className='rating-text' >Rating:</span> {Rating}</p>   
 
-            <img classname='customer-img' src={img} alt="" />
+            <img className='customer-img' src={img} alt="" />
 
             </div>        
         
