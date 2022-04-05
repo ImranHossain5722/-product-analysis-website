@@ -1,0 +1,9 @@
+.notFound-container {
+  margin: 0 auto;
+
+}
+.notFound {
+margin-left: 0px;
+color: red;
+font-size: 50px;
+}

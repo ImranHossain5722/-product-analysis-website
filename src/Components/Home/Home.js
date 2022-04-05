@@ -6,6 +6,8 @@ import './Home.css';
 
 
 const Home = () => {
+//button    
+const navigate= useNavigate() 
 //data load
 const [reviews,setReviews] = useState ([])
 
@@ -16,8 +18,7 @@ const [reviews,setReviews] = useState ([])
 
   },[])
 
-  // button 
-  const navigate= useNavigate() 
+  
     return (
         <div>
              {/* top section  */}
