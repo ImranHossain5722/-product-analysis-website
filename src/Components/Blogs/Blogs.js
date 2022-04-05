@@ -3,8 +3,8 @@ import './Blogs.css'
 
 const Blogs = () => {
     return (
-        <div>
-            <div className='first-q'>
+        <div className='blog-container'>
+            <div className='first-q p-4'>
                 <h3>What is Context Api</h3>
                 <p>Context provider a way to pass data through the components tree without having to pass props down manually at every level.Context is designed to share data that can be considered "global" for a tree of react components,such as the current authenticated user,theme or preferred language.for example in the code below we manually thread through a "theme" prop in order to style the button component</p>
             </div>

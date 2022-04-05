@@ -15,7 +15,7 @@ const AllReview = () => {
 
     return (
         <div className='review-container pt-4'>
-             <p className='review-text'> Our Customer Reviews {reviews.length}</p>   
+             <p className='review-text'> Our Customer Reviews </p>   
 
                 <div className='reviewCustomer' >
                 

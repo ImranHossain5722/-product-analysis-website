@@ -1,12 +1,12 @@
 import React from 'react';
 import {useEffect, useState } from 'react';
+import {useNavigate} from 'react-router-dom'
 import Review from '../Review/Review';
 import './Home.css';
 
 
 const Home = () => {
 //data load
-
 const [reviews,setReviews] = useState ([])
 
   useEffect(()=>{
@@ -15,8 +15,9 @@ const [reviews,setReviews] = useState ([])
     .then(data=>(setReviews(data)))
 
   },[])
-  
 
+  // button 
+  const navigate= useNavigate() 
     return (
         <div>
              {/* top section  */}
@@ -41,7 +42,7 @@ const [reviews,setReviews] = useState ([])
                     }
                 </div>
                 
-                <button className='btn btn-info btn-lg show-review-btn' > Show All Reviews </button>
+                <button className=' btn-lg show-review-btn' onClick={()=>navigate("/allReviews")}> Show All Reviews </button>
         </div>
         </div>
         

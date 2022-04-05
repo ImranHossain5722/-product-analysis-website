@@ -1,0 +1,12 @@
+.footer-container{
+    margin: 0 auto;
+    padding: 0;
+    
+    background-color: rgb(199, 253, 253);
+}
+
+.footer-container p{
+    padding: 20px;
+    font-size: 20px;
+
+}
